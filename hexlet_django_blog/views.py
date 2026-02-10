@@ -10,3 +10,7 @@ def index(request):
             "who": "World",
         },
     )
+
+
+def about(request):
+    return render(request, "about.html")
